@@ -7,6 +7,7 @@
     background-size: cover;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .loginelement {
@@ -50,16 +51,79 @@
 }
 
 #Welcome {
-    font-weight: 100;
+    font-weight: 600;
+    padding: 0;
+color: rgb(5, 99, 99);
 }
 
 #text {
-    font-size: 1.5rem;
-}
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-align: left;
+    margin: 0;
+    padding: 0;
 
+}
 .input {
     border: none;
+    border-radius: 0.5rem;
     height: 1.5rem;
-    font-size: 1rem;
+    font-size: 0.75rem;
     width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+}
+.input:focus{
+    outline: none;
+}
+#tick{
+       font-size: 0.8rem;
+    font-weight: 100;
+    opacity:70%;
+}
+#check-align{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.index-a{
+    color: rgb(6, 65, 65);
+}
+.signin-link{
+     font-size: 0.75rem;
+}
+.submit{
+    height: 2.5rem;
+    width:23vw ;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(5, 99, 99);
+    margin-top: 1rem;
+}
+.width-hr{
+ width: 40%;
+}
+#align-line{
+display: flex;
+justify-content: space-between;
+margin: 0.5rem;
+}
+.line{
+    border-top: 1px solid black;
+    width: 44%;
+    margin-top: 0.7rem;
+}
+#google-logo{
+    height: 2rem;
+}
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid rgb(5, 99, 99);
+       margin-left: 3rem;       
+        margin-right: 3rem;  
+        border-radius: 0.5rem;  
+      padding-top: 0.4rem;
 }

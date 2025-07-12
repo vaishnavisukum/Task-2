@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.login-body {
+.body {
     background: url('collegeimg.jpg') no-repeat;
     background-size: cover;
     margin: 0;
@@ -18,7 +18,7 @@
 .loginbox {
     background-color: #cde3d9;
     height: 70vh;
-    width: 28vw;
+    width: 25vw;
     margin: auto;
     border-radius: 1rem;
     padding-left: 2rem;
@@ -53,7 +53,8 @@
 #Welcome {
     font-weight: 600;
     padding: 0;
-color: rgb(5, 99, 99);
+    color: rgb(5, 99, 99);
+
 }
 
 #text {
@@ -64,66 +65,116 @@ color: rgb(5, 99, 99);
     padding: 0;
 
 }
+
 .input {
     border: none;
-    border-radius: 0.5rem;
-    height: 1.5rem;
     font-size: 0.75rem;
     width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    
 }
-.input:focus{
+
+.input:focus {
     outline: none;
 }
-#tick{
-       font-size: 0.8rem;
+
+#tick {
+    font-size: 0.65rem;
     font-weight: 100;
-    opacity:70%;
+    opacity: 70%;
 }
-#check-align{
+
+#check-align {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+
 }
-.index-a{
+
+.index-a {
     color: rgb(6, 65, 65);
+
 }
-.signin-link{
-     font-size: 0.75rem;
+
+.signin-link {
+    font-size: 0.65rem;
+    margin: 0;
+    padding: 0;
 }
-.submit{
+
+.submit {
     height: 2.5rem;
-    width:23vw ;
+    width: 20vw;
     border: none;
     border-radius: 0.5rem;
     background-color: rgb(5, 99, 99);
-    margin-top: 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    color: white;
+    font-size: 1rem;
 }
-.width-hr{
- width: 40%;
+
+.width-hr {
+    width: 40%;
 }
-#align-line{
-display: flex;
-justify-content: space-between;
-margin: 0.5rem;
+
+#align-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    opacity: 70%;
 }
-.line{
+
+.line {
     border-top: 1px solid black;
     width: 44%;
     margin-top: 0.7rem;
+    opacity: 20%;
 }
-#google-logo{
-    height: 2rem;
+
+#google-logo {
+    height: 1.5rem;
 }
-.align{
+
+.google {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 100;
+
+}
+
+.align {
     display: flex;
     align-items: center;
     justify-content: center;
-    border:1px solid rgb(5, 99, 99);
-       margin-left: 3rem;       
-        margin-right: 3rem;  
-        border-radius: 0.5rem;  
-      padding-top: 0.4rem;
+    border: 1px solid rgb(5, 99, 99);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 0.5rem;
+    padding-top: 0.4rem;
+    margin-top: 1rem;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    font-size: 2remrem;
+    color: rgb(5, 99, 99);
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.or {
+    font-size: 0.8rem;
+}
+/* login-box height change  */
+.height{
+    height:83vh;
 }

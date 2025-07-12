@@ -9,10 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400;500&display=swap"
     rel="stylesheet">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Login Page</title>
 </head>
 
-<body class="login-body">
+<body class="body">
   <div class="topbox">
     <div class="login-box">
       <div>
@@ -29,29 +31,39 @@
   </div>
   <div class="loginelement">
     <div class="loginbox">
-      <h2 id="Welcome">Welcome Back , Student</h2>
+      <h3 id="Welcome">Welcome Back , Student</h3>
       <h5 id="text">Email Address</h5>
       <form action="./signup.html">
-        <input type="email" class="input" placeholder="you@gmail.com">
+        <div class="container">
+          <i class="fa-regular fa-envelope icon"></i>
+          <input type="email" class="input" placeholder="you@gmail.com">
+        </div>
+
         <h3 id="text">Password</h3>
-        <input type="password" name="password" class="input" placeholder="**********">
+        <div class="container">
+          <i class="fa-solid fa-lock icon"></i>
+          <input type="password" name="password" class="input" placeholder="**********">
+        </div>
         <div id="check-align">
           <div><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox" id="tick"> Remember me</label>
           </div>
           <div><a href="" class="index-a"><label for="index-a" class="signin-link">Forgot your password
                 ?</label></a></div>
         </div>
-        <button type="submit" class="submit"> Submit</button>
+        <button type="submit" class="submit"> Sign in</button>
         <div><label for="index-a" class="signin-link">New to DormDash?<a href="./signup.html" class="index-a">Create new
               account</label> </a> </div>
         <div id="align-line">
           <div class="line">
           </div>
-          <div> OR</div>
+          <div class="or"> OR</div>
           <div class="line">
           </div>
         </div>
-        <div class="align"><div><img src="./google-logo.png" alt="google logo" id="google-logo"></div> <div><a href="" class="google">Login with Google</a></div> </div>
+        <div class="align">
+          <div><img src="./google-logo.png" alt="google logo" id="google-logo"></div>
+          <div><a href="" class="google">Login with Google</a></div>
+        </div>
     </div>
   </div>
 </body>

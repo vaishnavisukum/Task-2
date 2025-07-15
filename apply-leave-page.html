@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Appliaction Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="page">
+    <div class="topbox right">
+        <div class="logo-box">
+            <div>
+                <img src="./collegelogo.jpg" alt="college-logo" class="logo" />
+            </div>
+            <div>Hostel Leave Managemant</div>
+        </div>
+        <div class="list-box">
+            <ul class="list">
+                <li>Dashboard</li>
+                <li>Apply Leave</li>
+                <li>History</li>
+                <li>Notifiaction</li>
+                <li>Profile</li>
+                <li id="icon-position">
+                    <img src="./profileicon" alt="profile picture" class="profile-img" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr class="hr" />
+    <div class="div-main">
+        <div class="header">
+            <h2>Apply for a leave</h2>
+            <p>Your leave application in one step</p>
+        </div>
+        <div class="appliction-page">
+            <form action="" class="form">
+                <div class="LR-box">
+                    <div class="left-box">
+                        <input type="text" class="inp" placeholder="Student ID">
+                        <input type="text" class="inp" placeholder="Room Number">
+                        <input type="text" class="inp" placeholder="Destination(If Emergancy or Casual Leave) ">
+                        <input type="text" class="inp" placeholder="Contact Number">
+                     <div class="inp" > Start Date<input type="date" class="date"></div> 
+                    </div>
+                    <div class="right-box">
+                        <input type="text" class="inp" placeholder="Name">
+                        <select id="leaveType" name="leaveType" class="inp">
+                            <option value="">Leave Type </option>
+                            <option value="sick">Sick Leave</option>
+                            <option value="casual">Casual Leave</option>
+                            <option value="emergency">Emergency Leave</option>
+                            <option value="other">Other</option>
+                        </select>
+                       <div class="inp" > End Date<input type="date" class="date"  ></div> 
+                    </div>
+                </div>
+                <div class="reason-box">
+                    <p>Reason of leave</p>
+                </div>
+                
+                <button type="submit" class="apply-btn">Apply for Leave</button>
+            </form>
+        </div>
+
+</body>
+
+</html>

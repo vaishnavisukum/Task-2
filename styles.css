@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .body {
@@ -18,7 +20,7 @@
 
 .loginbox {
   background-color: #cde3d9;
-  height: 70vh;
+  height: 66vh;
   width: 25vw;
   margin: auto;
   border-radius: 0.63rem;
@@ -31,6 +33,7 @@
   height: 7vh;
   background-color: white;
   display: flex;
+font-weight: 400;
 }
 
 .logo-box {
@@ -55,7 +58,7 @@
 
 #Welcome {
   font-weight: 600;
-  padding: 0;
+ margin: 1rem;
   color: rgb(5, 99, 99);
 }
 
@@ -174,7 +177,7 @@
 }
 /* login-box height change  */
 .height {
-  height: 83vh;
+  height: 80vh;
 }
 .a-link {
   text-decoration: none;
@@ -199,11 +202,11 @@
   justify-content: space-between;
 }
 .list li {
-  margin: 1rem;
+  margin: 0.7rem;
 }
 .profile-img {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2.35rem;
+  width: 2.35rem;
 }
 #icon-position {
   margin: 0.3rem;
@@ -211,6 +214,7 @@
 .hr {
   border: 1px solid #cac4d0;
   padding: 0;
+  margin: 0;
 }
 .div-main {
   height: 87vh;
@@ -246,6 +250,12 @@ p {
 }
 .left-panel h3 {
   color: #1b6a76;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .right-pannel {
@@ -254,11 +264,15 @@ p {
 }
 .div-main h2 {
   color: #1b6a76;
+  font-size: 1.5rem;
 }
 .right-pannel h3 {
   margin: 0;
   padding: 0;
   color: #1b6a76;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .dashboard-boxes {
@@ -269,21 +283,33 @@ p {
 .box-main {
   display: flex;
   gap: 2rem;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .box {
- border: 1px solid #CAC4D0;
+  border: 1px solid #cac4d0;
   flex: 1;
-  display: flex;
   align-items: center;
   gap: 15px;
   padding: 15px;
   border-radius: 8px;
+  color: #1b6a76;
+  height: 9rem;
 }
-
+.box p {
+  color: black;
+}
+.box-p {
+  margin-top: 1rem;
+}
+.box div {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
 .apply-btn {
-  background-color: #014f86;
+  background-color: #1B6A76;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -292,15 +318,11 @@ p {
   cursor: pointer;
   width: 100%;
 }
-.right-panel h3 {
-  margin-bottom: 15px;
-  font-size: 16px;
-}
 
 .activity .entry {
   display: flex;
   justify-content: space-between;
-  background-color: #f5f5f5;
+  border: 1px solid #cac4d0;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -308,9 +330,10 @@ p {
 }
 
 .status {
-  padding: 5px 12px;
+  padding: 11px 12px;
+  width: 6rem;
   border-radius: 15px;
-  font-size: 12px;
+  font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
 }
@@ -322,7 +345,7 @@ p {
 
 .status.pending {
   background-color: #ffc107;
-  color: #000;
+  color: white;
 }
 
 .status.rejected {
@@ -332,7 +355,7 @@ p {
 .quick-insights h3 {
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 .insights-grid {
@@ -368,4 +391,86 @@ p {
 }
 .red {
   background-color: #dc3545;
+}
+.dash-icon {
+  font-size: 2rem;
+}
+#vertical-line {
+  width: 1px;
+  height: 97vh;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #cac4d0;
+}
+.next {
+  height: 20px;
+  position: relative;
+  margin-left: 13.5rem;
+}
+.arrow-next{
+  height: 15px;
+  margin-top: 0.9rem;
+}
+.reject-btn{
+display: flex;
+gap: 0.5rem;
+}
+.a-link{
+  text-decoration: none;
+}
+/* leave appliction page */
+.page{
+  margin: 0;
+  padding: 0;
+}
+.appliction-page{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+    padding: 2rem;
+  border: 1px solid #CAC4D0;
+  height: 79vh;
+}
+.LR-box{
+  display: flex;
+  gap: 2rem;
+  
+}
+.left-box{
+width: 50%;
+
+}
+.right-box{
+width: 50%;
+
+}
+.inp{
+  height:2.5rem ;
+  width:100%;
+  border-radius: 10px;
+  margin-top:0.5rem  ;
+  margin-bottom:0.5rem  ;
+  background-color: #EAF6FF;
+  font-size: 1rem;
+  padding-left:1rem ;
+  padding-right:1rem ;
+  border: none;
+
+  
+}
+.form{
+  margin: 0;
+  padding: 0;
+}
+.reason-box{
+  width:100%;
+  height: 16vh;
+  margin-top: 1rem;
+  background-color:#EAF6FF;
+}
+.date{
+  margin-left: 20rem;
+  background-color:  #EAF6FF;
+  border: none;
 }

@@ -9,20 +9,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400;500&display=swap"
     rel="stylesheet">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Login Page</title>
 </head>
 
 <body class="body">
   <div class="topbox">
-    <div class="login-box">
+    <div class="logo-box">
       <div>
         <img src="./collegelogo.jpg" alt="college-logo" class="logo" />
       </div>
       <div>Hostel Leave Managemant</div>
     </div>
-    <div class="login-box" id="center">
+    <div class="logo-box" id="center">
       <div>
         <img src="./profilelogo.png" alt="Student Profile image" class="logo" />
       </div>
@@ -36,13 +35,13 @@
       <form action="./signup.html">
         <div class="container">
           <i class="fa-regular fa-envelope icon"></i>
-          <input type="email" class="input" placeholder="you@gmail.com">
+          <input type="email" class="input" placeholder="you@gmail.com" required>
         </div>
 
         <h3 id="text">Password</h3>
         <div class="container">
           <i class="fa-solid fa-lock icon"></i>
-          <input type="password" name="password" class="input" placeholder="**********">
+          <input type="password" name="password" class="input" placeholder="**********" required>
         </div>
         <div id="check-align">
           <div><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox" id="tick"> Remember me</label>
@@ -50,7 +49,7 @@
           <div><a href="" class="index-a"><label for="index-a" class="signin-link">Forgot your password
                 ?</label></a></div>
         </div>
-        <button type="submit" class="submit"> Sign in</button>
+        <button type="submit" class="submit"> Sign in</button></form>
         <div><label for="index-a" class="signin-link">New to DormDash?<a href="./signup.html" class="index-a">Create new
               account</label> </a> </div>
         <div id="align-line">

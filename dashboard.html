@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dahboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body id="dashboard-body">
+    <div class="topbox right">
+      <div class="logo-box">
+        <div>
+          <img src="./collegelogo.jpg" alt="college-logo" class="logo" />
+        </div>
+        <div>Hostel Leave Managemant</div>
+      </div>
+      <div class="list-box">
+        <ul class="list">
+          <li>Dashboard</li>
+          <li>Apply Leave</li>
+          <li>History</li>
+          <li>Notifiaction</li>
+          <li>Profile</li>
+          <li id="icon-position">
+            <img
+              src="./profileicon"
+              alt="profile picture"
+              class="profile-img"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="hr" />
+    <div class="div-main">
+      <div class="header">
+        <h2>Student Dashboard</h2>
+        <p>Your leave summary at a glance</p>
+      </div>
+      <hr class="hr" />
+      <div class="pannel">
+        <div class="left-panel">
+          <h3>Dashboard</h3>
+          <div class="box-main">
+            <div class="box">
+              <i class="fa fa-calendar-day icon"></i>
+              <div>
+                <p>Leaves Taken</p>
+                <h3>04 Days</h3>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fa fa-hourglass-half icon"></i>
+              <div>
+                <p>Pending Requests</p>
+                <h3>01 Request</h3>
+              </div>
+            </div>
+          </div>
+          <button class="apply-btn">Apply for Leave</button>
+
+          <div class="quick-insights">
+            <h3>Quick Insights</h3>
+            <div class="insights-grid">
+              <div class="card gray">
+                <i class="fa fa-calendar-check icon"></i>
+                <p>Next Leave</p>
+                <h4>10<sup>th</sup> July</h4>
+              </div>
+              <div class="card green">
+                <i class="fa fa-check icon"></i>
+                <p>Approved Leaves</p>
+                <h4>03 Requests</h4>
+              </div>
+              <div class="card orange">
+                <i class="fa fa-clock icon"></i>
+                <p>Pending Leaves</p>
+                <h4>01 Request</h4>
+              </div>
+              <div class="card red">
+                <i class="fa fa-times icon"></i>
+                <p>Rejected Leaves</p>
+                <h4>01 Request</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-pannel">
+          <h3>Recent Leave Activity</h3>
+          <div class="activity">
+            <div class="entry">
+              <div>
+                <strong>Sick Leave</strong><br />
+                <small>June 14 - June 15</small>
+              </div>
+              <span class="status approved">Approved</span>
+            </div>
+            <div class="entry">
+              <div>
+                <strong>Sick Leave</strong><br />
+                <small>May 12 - May 13</small>
+              </div>
+              <span class="status pending">Pending</span>
+            </div>
+            <div class="entry">
+              <div>
+                <strong>Casual Leave</strong><br />
+                <small>April 21 - April 23</small>
+              </div>
+              <span class="status rejected">Rejected</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

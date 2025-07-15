@@ -5,19 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign up page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="body">
 
   <div class="topbox">
-    <div class="login-box ">
+    <div class="logo-box ">
       <div>
         <img src="./collegelogo.jpg" alt="college-logo" class="logo" />
       </div>
       <div>Hostel Leave Managemant</div>
     </div>
-    <div class="login-box" id="center">
+    <div class="logo-box" id="center">
       <div>
         <img src="./profilelogo.png" alt="Student Profile image" class="logo" />
       </div>
@@ -28,26 +29,30 @@
     <div class="loginbox height">
       <h2 id="Welcome">Welcome , Student</h2>
       
-      <form action="./signup.html">
+      <form action="./dashboard.html">
         <h5 id="text">Full Name</h5>
          <div class="container"> 
-        <input type="text" class="input" placeholder="Alex Xander">
+              <i class="fa-regular fa-user icon "></i>
+        <input type="text" class="input" placeholder="Alex Xander" required>
       </div>
        
         <h3 id="text">Email Address</h3>
 <div class="container">
-        <input type="email" name="email" class="input" placeholder="you@gmail.com">
+    <i class="fa-regular fa-envelope icon"></i>
+        <input type="email" name="email" class="input" placeholder="you@gmail.com" required>
       </div>
         <h3 id="text">Mobile Number</h3>
        <div class="container">
-        <input type="tel" maxlength="10" pattern="\d{10}" class="input" placeholder="+91 0000000000">
+        <i class="fa-solid fa-phone icon"></i>
+        <input type="tel" maxlength="10" pattern="\d{10}" class="input" placeholder="+91 0000000000" required>
       </div>
         <h3 id="text">Password</h3>
         <div class="container">
-        <input type="password" name="password" class="input" placeholder="**********">
+           <i class="fa-solid fa-lock icon"></i>
+        <input type="password" name="password" class="input" placeholder="**********" required>
       </div>
-        <button type="submit" class="submit"> Sign up</button>
-        <div><label for="index-a" class="signin-link">Already have account?<a href="./signup.html" class="index-a">login
+        <button type="submit" class="submit"> Sign up</button></form>
+        <div><label for="index-a" class="signin-link">Already have account?<a href="./signup.html" class="index-a"><a href="./index.html" class="a-link">login</a>
           </label> </a> </div>
         <div id="align-line">
           <div class="line">
